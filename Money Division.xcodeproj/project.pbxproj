@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644505341AA8971B009DEB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644505331AA8971B009DEB33 /* AppDelegate.swift */; };
+		644505361AA8971B009DEB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644505351AA8971B009DEB33 /* ViewController.swift */; };
+		644505391AA8971B009DEB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644505371AA8971B009DEB33 /* Main.storyboard */; };
+		6445053B1AA8971B009DEB33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6445053A1AA8971B009DEB33 /* Images.xcassets */; };
+		6445053E1AA8971B009DEB33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6445053C1AA8971B009DEB33 /* LaunchScreen.xib */; };
+		6445054A1AA8971B009DEB33 /* Money_DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644505491AA8971B009DEB33 /* Money_DivisionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644505441AA8971B009DEB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644505261AA8971B009DEB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6445052D1AA8971B009DEB33;
+			remoteInfo = "Money Division";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6445052E1AA8971B009DEB33 /* Money Division.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Division.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644505321AA8971B009DEB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644505331AA8971B009DEB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644505351AA8971B009DEB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644505381AA8971B009DEB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6445053A1AA8971B009DEB33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6445053D1AA8971B009DEB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		644505431AA8971B009DEB33 /* Money DivisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money DivisionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644505481AA8971B009DEB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644505491AA8971B009DEB33 /* Money_DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_DivisionTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6445052B1AA8971B009DEB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644505401AA8971B009DEB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644505251AA8971B009DEB33 = {
+			isa = PBXGroup;
+			children = (
+				644505301AA8971B009DEB33 /* Money Division */,
+				644505461AA8971B009DEB33 /* Money DivisionTests */,
+				6445052F1AA8971B009DEB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6445052F1AA8971B009DEB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6445052E1AA8971B009DEB33 /* Money Division.app */,
+				644505431AA8971B009DEB33 /* Money DivisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644505301AA8971B009DEB33 /* Money Division */ = {
+			isa = PBXGroup;
+			children = (
+				644505331AA8971B009DEB33 /* AppDelegate.swift */,
+				644505351AA8971B009DEB33 /* ViewController.swift */,
+				644505371AA8971B009DEB33 /* Main.storyboard */,
+				6445053A1AA8971B009DEB33 /* Images.xcassets */,
+				6445053C1AA8971B009DEB33 /* LaunchScreen.xib */,
+				644505311AA8971B009DEB33 /* Supporting Files */,
+			);
+			path = "Money Division";
+			sourceTree = "<group>";
+		};
+		644505311AA8971B009DEB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				644505321AA8971B009DEB33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		644505461AA8971B009DEB33 /* Money DivisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				644505491AA8971B009DEB33 /* Money_DivisionTests.swift */,
+				644505471AA8971B009DEB33 /* Supporting Files */,
+			);
+			path = "Money DivisionTests";
+			sourceTree = "<group>";
+		};
+		644505471AA8971B009DEB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				644505481AA8971B009DEB33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6445052D1AA8971B009DEB33 /* Money Division */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6445054D1AA8971B009DEB33 /* Build configuration list for PBXNativeTarget "Money Division" */;
+			buildPhases = (
+				6445052A1AA8971B009DEB33 /* Sources */,
+				6445052B1AA8971B009DEB33 /* Frameworks */,
+				6445052C1AA8971B009DEB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Division";
+			productName = "Money Division";
+			productReference = 6445052E1AA8971B009DEB33 /* Money Division.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644505421AA8971B009DEB33 /* Money DivisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644505501AA8971B009DEB33 /* Build configuration list for PBXNativeTarget "Money DivisionTests" */;
+			buildPhases = (
+				6445053F1AA8971B009DEB33 /* Sources */,
+				644505401AA8971B009DEB33 /* Frameworks */,
+				644505411AA8971B009DEB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644505451AA8971B009DEB33 /* PBXTargetDependency */,
+			);
+			name = "Money DivisionTests";
+			productName = "Money DivisionTests";
+			productReference = 644505431AA8971B009DEB33 /* Money DivisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644505261AA8971B009DEB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daphne Schinazi";
+				TargetAttributes = {
+					6445052D1AA8971B009DEB33 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					644505421AA8971B009DEB33 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6445052D1AA8971B009DEB33;
+					};
+				};
+			};
+			buildConfigurationList = 644505291AA8971B009DEB33 /* Build configuration list for PBXProject "Money Division" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644505251AA8971B009DEB33;
+			productRefGroup = 6445052F1AA8971B009DEB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6445052D1AA8971B009DEB33 /* Money Division */,
+				644505421AA8971B009DEB33 /* Money DivisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6445052C1AA8971B009DEB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644505391AA8971B009DEB33 /* Main.storyboard in Resources */,
+				6445053E1AA8971B009DEB33 /* LaunchScreen.xib in Resources */,
+				6445053B1AA8971B009DEB33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644505411AA8971B009DEB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6445052A1AA8971B009DEB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644505361AA8971B009DEB33 /* ViewController.swift in Sources */,
+				644505341AA8971B009DEB33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6445053F1AA8971B009DEB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6445054A1AA8971B009DEB33 /* Money_DivisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644505451AA8971B009DEB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6445052D1AA8971B009DEB33 /* Money Division */;
+			targetProxy = 644505441AA8971B009DEB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644505371AA8971B009DEB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644505381AA8971B009DEB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6445053C1AA8971B009DEB33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6445053D1AA8971B009DEB33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6445054B1AA8971B009DEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6445054C1AA8971B009DEB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6445054E1AA8971B009DEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Money Division/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6445054F1AA8971B009DEB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Money Division/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		644505511AA8971B009DEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Money DivisionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Division.app/Money Division";
+			};
+			name = Debug;
+		};
+		644505521AA8971B009DEB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Money DivisionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Division.app/Money Division";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644505291AA8971B009DEB33 /* Build configuration list for PBXProject "Money Division" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6445054B1AA8971B009DEB33 /* Debug */,
+				6445054C1AA8971B009DEB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6445054D1AA8971B009DEB33 /* Build configuration list for PBXNativeTarget "Money Division" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6445054E1AA8971B009DEB33 /* Debug */,
+				6445054F1AA8971B009DEB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644505501AA8971B009DEB33 /* Build configuration list for PBXNativeTarget "Money DivisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644505511AA8971B009DEB33 /* Debug */,
+				644505521AA8971B009DEB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644505261AA8971B009DEB33 /* Project object */;
+}
